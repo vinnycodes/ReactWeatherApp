@@ -1,0 +1,12 @@
+1. https://www.npmjs.com/package/react-google-places-autocomplete#get-lat-lng --> react google autocomplete | places
+2. https://darksky.net/dev/docs --> darksky api
+3. https://momentjs.com/ --> Time/Date package (figure out exactly what it is because it's not an api)
+4. https://www.npmjs.com/package/cors-anywhere --> Possible CORS resolution
+5. https://cors-anywhere.herokuapp.com/ --> Actual resolution used for CORS issue (for darkSky api call)
+6. http://adamwhitcroft.com/climacons/ --> Weather Icons to use in the future if need be 
+    |__ https://www.npmjs.com/package/react-animated-weather 
+7. https://maxdow.github.io/skycons/ --> Colored SkyCons used 
+    |__ https://github.com/maxdow/skycons
+
+Flow to get geocoordinates from the mapBox api 
+    - data --> features --> 0 --> geometry --> coordinates --> 0,1
